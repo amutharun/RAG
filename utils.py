@@ -66,7 +66,7 @@ def get_answer(query, _llm, retriever):
 def pretty_print_docs(docs):
     print(
         f"\n{'-' * 100}\n".join(
-            [f"Document {i+1}:\n\n" + d.page_content for i, d in enumerate(docs)]
+            [f"Document {i+1}:\n\n" + d.page_content + "\n\n" + str(d.metadata) for i, d in enumerate(docs)]
         )
     )
 
