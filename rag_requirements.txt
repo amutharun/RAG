@@ -9,4 +9,4 @@ pypdf==3.16.2
 tiktoken==0.5.1
 openai==0.28.1
 umap-learn==0.5.5
-lark=1.1.9
+lark==1.1.9
